@@ -26,7 +26,7 @@
 
 //构造函数
 
-function MySet () {
+`function MySet () {
     this.dataStore = [];            // 数据存储
     this.add = add;                 // 添加成员
     this.remove = remove;           // 删除成员
@@ -37,7 +37,7 @@ function MySet () {
     this.difference = difference;   // 集合求补集
     this.contains = contains;       // 判断某成员是否属于该集合
     this.show = show;               // 显示当前集合
-}
+}`
 我们第一个要实现的方法就是向集合中添加一个成员，即 add 方法
 
 add：向集合中添加一个成员
